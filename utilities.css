@@ -1,0 +1,40 @@
+.flex{
+    display: flex;
+}
+
+.items{
+    align-items: center;
+}
+
+.justy{
+    justify-content: space-around;
+}
+
+.item{
+align-items: end;
+}
+
+
+.justy2{
+    justify-content: space-between;
+}
+
+.justy3{
+    justify-content: end;
+}
+
+.justfly{
+    justify-content: center;
+}
+
+.font_family{
+    font-family: sans-serif;
+}
+
+.font_weight{
+    font-weight: 600;
+}
+
+.color{
+    color: white;
+}
