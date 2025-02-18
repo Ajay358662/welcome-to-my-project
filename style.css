@@ -386,6 +386,7 @@ overflow: hidden;
 
   .picture1:hover{
     background-image:url("Millionaire_5_1.jpg") ;
+    background-size:cover;
   }
 
   .picture2{
@@ -395,6 +396,7 @@ overflow: hidden;
 
   .picture2:hover{
     background-image:url("Mafia_3_1.jpg") ;
+    background-size:cover;
   }
 
   .picture3{
@@ -404,6 +406,7 @@ overflow: hidden;
 
   .picture3:hover{
     background-image:url("Comboimageforlisting.jpg") ;
+    background-size:cover;
   }
   .price2{
     margin-top: 430px;
@@ -412,7 +415,7 @@ overflow: hidden;
 
 }
 
-@media screen and (max-width:430px) {
+@media screen and (max-width:490px) {
   .group{
     display: grid;
     grid-template-columns: repeat(2,1fr);
