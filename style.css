@@ -582,6 +582,7 @@ footer{
   width: 90%;
   height: 400px;
   gap: 50px;
+  padding-left:40px;
 }
 
 .fut_content1{
@@ -623,18 +624,38 @@ footer{
 @media screen and (max-width:990px){
   .fut{
     grid-template-columns: repeat(2,1fr);
+    padding-left:40px;
   }
+
+  .fut_content1{
+  font-size: 15px;
+  margin-bottom: 40px;
+  margin-top: 70px;
+}
   
 }
 
 @media screen and (max-width:430px){
   .fut{
     grid-template-columns: repeat(2,1fr);
+    padding-left:40px;
   }
 
   .rty{
     margin-top:-200px;
+    padding-left: 40px;
   }
+
+  .wet{
+  width: 200px;
+  height: 40px;
+  padding-left: 40px;
+}
+
+  .fut_content33{
+  font-size: 25px;
+
+}
   
 }
 
