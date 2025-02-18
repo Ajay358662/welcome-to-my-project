@@ -108,13 +108,9 @@ li:hover{
 }
 
 @media screen and (max-width:430px){
-  .icon3{
-    margin-left: 20px;
-  }
-
   #checkbtn{
     display: block;
-    padding-left: 80px;
+    padding-left: 30px;
   }
 }
 
@@ -216,6 +212,8 @@ h3{
   h3{
     font-size: 18px;
   }
+
+  
 
   .view{
     width: 90%;
@@ -579,7 +577,8 @@ footer{
 }
 
 .fut{
-  padding-left: 50px;
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
   width: 90%;
   height: 400px;
   gap: 50px;
