@@ -430,7 +430,7 @@ overflow: hidden;
 @media screen and (max-width:490px) {
     .secend{
     width: 100%;
-    height: 1500px;
+    height: 2000px;
     
   }
   
@@ -441,7 +441,7 @@ overflow: hidden;
 width: 90%;
 margin: auto;
 overflow: hidden;
-height: 1500px;
+height: 2000px;
   }
 
   .picture1{
@@ -568,7 +568,7 @@ height: 1500px;
 
 }
 
-@media screen and (max-width:890px) {
+@media screen and (max-width:790px) {
   .third{
     width: 100%;
     height: 2000px;
