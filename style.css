@@ -213,7 +213,42 @@ h3{
     font-size: 18px;
   }
 
-  
+  .view{
+    width: 90%;
+    margin: auto;
+    justify-content: start;
+    height: 60px;
+    
+  }
+}
+
+@media screen and (max-width:430px){
+  .pic{
+    background-image: url("Adobe\ Express\ -\ file.jpg");
+    background-size: cover;
+    width: 100%;
+    overflow: hidden;
+    height: 800px;
+    
+  }
+
+  .pic:hover{
+    background-image: url("Drop_4.0_banner_ms_1.jpg");
+    object-fit: cover;
+    width: 100%;
+    overflow: hidden;
+    height: 800px;
+  }
+
+  h2{
+    font-size: 20px;
+  }
+  p{
+    font-size: 15px;
+  }
+  h3{
+    font-size: 18px;
+  }
 
   .view{
     width: 90%;
@@ -329,6 +364,7 @@ h5{
     overflow: hidden;
     height: 1200px ;
   }
+  
 
 
 }
@@ -348,14 +384,26 @@ overflow: hidden;
     height: 400px;
   }
 
+  .picture1:hover{
+    background-image:url("Millionaire_5_1.jpg") ;
+  }
+
   .picture2{
     width: 250px;
     height: 400px;
   }
 
+  .picture2:hover{
+    background-image:url("Mafia_3_1.jpg") ;
+  }
+
   .picture3{
     width: 250px;
     height: 400px;
+  }
+
+  .picture3:hover{
+    background-image:url("Comboimageforlisting.jpg") ;
   }
   .price2{
     margin-top: 430px;
@@ -364,6 +412,39 @@ overflow: hidden;
 
 }
 
+@media screen and (max-width:430px) {
+  .group{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-gap: 10px;
+width: 90%;
+margin: auto;
+overflow: hidden;
+height: 650px;
+  }
+
+  .picture1{
+  width: 185px;
+  height: 200px;
+  }
+
+  .picture2{
+    width: 185px;
+    height: 200px;
+    }
+
+    .picture3{
+      width: 185px;
+      height: 200px;
+      
+      }
+
+      .price2{
+        margin-top: 230px;
+      }
+
+
+}
 
 
 .third{
