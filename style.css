@@ -272,7 +272,7 @@ h3{
   grid-template-columns: repeat(3,1fr);
   width: 90%;
   margin: auto;
-  height: 700px;
+  height: 1050px;
   margin: auto;
   gap: 40px;
 
@@ -373,7 +373,7 @@ h5{
 @media screen and (max-width:790px) {
    .secend{
     width: 100%;
-    height: 1000px;
+    height: 1500px;
     
   }
   
@@ -430,7 +430,7 @@ overflow: hidden;
 @media screen and (max-width:490px) {
     .secend{
     width: 100%;
-    height: 850px;
+    height: 1500px;
     
   }
   
@@ -441,7 +441,7 @@ overflow: hidden;
 width: 90%;
 margin: auto;
 overflow: hidden;
-height: 850px;
+height: 1500px;
   }
 
   .picture1{
@@ -467,10 +467,7 @@ height: 850px;
   h4{
     font-size:10px;
   }
-  .content2{
-    margin-top:-200px;
-    
-  }
+
 }
 
 .third{
