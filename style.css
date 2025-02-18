@@ -624,49 +624,23 @@ footer{
 @media screen and (max-width:990px){
   .fut{
     grid-template-columns: repeat(2,1fr);
-    padding-left:40px;
+    width: 90%;
+    height: 700px;
+    margin: auto;
+    gap: 40px;
   }
 
-  .fut_content1{
-  font-size: 15px;
-  margin-bottom: 40px;
-  margin-top: 70px;
-}
-  
-}
-
-@media screen and (max-width:430px){
-  .fut{
-    grid-template-columns: repeat(2,1fr);
-    padding-left:40px;
-  }
-
-  .rty{
-    margin-top:-400px;
-    padding-left: 40px;
+  .fut_content33{
+    font-size: 18px;
+    
   }
 
   .wet{
-  width: 150px;
-  height: 40px;
-  padding-left: 40px;
-}
+    width: 150px;
+    height: 30px;
+    padding-left: 30px;
+  }
 
-  .fut_content33{
-  font-size: 20px;
-
-}
-.fut_items{
-  width:100px;
-  height:100px;
-}
-
-  .fut_items1{
-  width:120px;
-  height:200px;
-}
-  
-  
 }
 
 
