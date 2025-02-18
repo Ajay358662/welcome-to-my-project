@@ -643,10 +643,15 @@ fut_items2{
     padding-left: 30px;
   }
 
+    .fut_items1{
+    width: 130px;
+    height: auto;
+  }
+
     .rty{
     font-size: 10px;
     margin-bottom:200px;
-    padding:0;
+    padding:30px;
   }
 
 }
@@ -676,7 +681,7 @@ fut_items2{
   .rty{
     font-size: 10px;
     margin-bottom:200px;
-    padding:0;
+  
   }
 }
 
