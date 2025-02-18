@@ -641,18 +641,42 @@ footer{
     padding-left: 30px;
   }
 
-  .fut_content23{
-    font-size:15px;
-  }
-  .fut_content2{
-  font-size:12px;
-  }
 
   .rty{
     margin-top:200px;
   }
 
 }
+
+@media screen and (max-width:430px){
+  .fut{
+    grid-template-columns: repeat(2,1fr);
+    width: 90%;
+    height: 800px;
+    margin: auto;
+    gap: 40px;
+  }
+
+  .fut_items{
+    width: 100px;
+    height: auto;
+  }
+
+  .fut_items1{
+    width: 130px;
+    height: auto;
+  }
+
+  .wet{
+    margin-top: -50px;
+
+  }
+  .rty{
+    font-size: 10px;
+    margin-top: 30px;
+  }
+}
+
 
 
 
