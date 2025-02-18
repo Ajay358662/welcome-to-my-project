@@ -643,6 +643,12 @@ fut_items2{
     padding-left: 30px;
   }
 
+    .rty{
+    font-size: 10px;
+    margin-bottom:200px;
+    padding:0;
+  }
+
 }
 
 @media screen and (max-width:430px){
