@@ -107,10 +107,10 @@ li:hover{
   }
 }
 
-@media screen and (max-width:490px){
+@media screen and (max-width:430px){
   #checkbtn{
     display: block;
-    padding-left: 30px;
+    padding-left: 80px;
   }
 }
 
@@ -185,7 +185,6 @@ h3{
   cursor: pointer;
 }
 
-
 @media screen and (max-width:990px){
   .pic{
     background-image: url("Adobe\ Express\ -\ file.jpg");
@@ -223,7 +222,7 @@ h3{
   }
 }
 
-@media screen and (max-width:490px){
+@media screen and (max-width:430px){
   .pic{
     background-image: url("Adobe\ Express\ -\ file.jpg");
     background-size: cover;
@@ -272,7 +271,7 @@ h3{
   grid-template-columns: repeat(3,1fr);
   width: 90%;
   margin: auto;
-  height: 1050px;
+  height: 700px;
   margin: auto;
   gap: 40px;
 
@@ -371,13 +370,6 @@ h5{
 
 
 @media screen and (max-width:790px) {
-   .secend{
-    width: 100%;
-    height: 1500px;
-    
-  }
-  
-  
   .group{
     display: grid;
     grid-template-columns: repeat(2,1fr);
@@ -385,7 +377,6 @@ h5{
 width: 90%;
 margin: auto;
 overflow: hidden;
-    height:1000px;
   }
   .picture1{
     width: 250px;
@@ -394,7 +385,6 @@ overflow: hidden;
 
   .picture1:hover{
     background-image:url("Millionaire_5_1.jpg") ;
-    background-size:cover;
   }
 
   .picture2{
@@ -404,7 +394,6 @@ overflow: hidden;
 
   .picture2:hover{
     background-image:url("Mafia_3_1.jpg") ;
-    background-size:cover;
   }
 
   .picture3{
@@ -414,26 +403,15 @@ overflow: hidden;
 
   .picture3:hover{
     background-image:url("Comboimageforlisting.jpg") ;
-    background-size:cover;
   }
   .price2{
     margin-top: 430px;
   }
 
-   h4{
-    font-size:18px;
-  }
-
 
 }
 
-@media screen and (max-width:490px) {
-    .secend{
-    width: 100%;
-    height: 2000px;
-    
-  }
-  
+@media screen and (max-width:430px) {
   .group{
     display: grid;
     grid-template-columns: repeat(2,1fr);
@@ -441,7 +419,7 @@ overflow: hidden;
 width: 90%;
 margin: auto;
 overflow: hidden;
-height: 2000px;
+height: 650px;
   }
 
   .picture1{
@@ -464,11 +442,10 @@ height: 2000px;
         margin-top: 230px;
       }
 
-  h4{
-    font-size:10px;
-  }
 
 }
+
+
 
 .third{
   width: 100%;
@@ -631,7 +608,7 @@ margin: auto;
 justify-content: center;
 align-items: center;
 overflow: hidden;
-        margin-top: -500px;
+margin-top: -500px;
   }
 
 }
@@ -646,6 +623,7 @@ overflow: hidden;
   margin-top: 0px;
   background-color: black;
 }
+
 marquee:first-child{
   margin-left: 0;
 }
