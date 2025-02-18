@@ -620,11 +620,23 @@ footer{
   margin-top: -100px;
 }
 
-@media screen and (max-width:430px){
+@media screen and (max-width:990px){
   .fut{
     grid-template-columns: repeat(2,1fr);
   }
   
 }
+
+@media screen and (max-width:430px){
+  .fut{
+    grid-template-columns: repeat(2,1fr);
+  }
+
+  .rty{
+    margin-top:-200px;
+  }
+  
+}
+
 
 
