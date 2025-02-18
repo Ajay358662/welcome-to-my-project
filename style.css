@@ -671,7 +671,7 @@ fut_items2{
   }
 
   .fut_items1{
-    width: 130px;
+    width: 110px;
     height: auto;
   }
 
@@ -681,7 +681,7 @@ fut_items2{
   .rty{
     font-size: 10px;
     margin-bottom:200px;
-  
+    padding-left:30px;
   }
 }
 
