@@ -662,13 +662,13 @@ footer{
     height: auto;
   }
 
-  .wet{
-    margin-top: -50px;
-
-  }
+fut_items2{
+  margin-bottom:100px;
+}
   .rty{
     font-size: 10px;
-    margin-bottom:100px;
+    margin-bottom:200px;
+    padding:0;
   }
 }
 
