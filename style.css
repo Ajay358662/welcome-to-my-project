@@ -371,6 +371,13 @@ h5{
 
 
 @media screen and (max-width:790px) {
+   .secend{
+    width: 100%;
+    height: 1000px;
+    
+  }
+  
+  
   .group{
     display: grid;
     grid-template-columns: repeat(2,1fr);
@@ -378,6 +385,7 @@ h5{
 width: 90%;
 margin: auto;
 overflow: hidden;
+    height:900px;
   }
   .picture1{
     width: 250px;
@@ -416,6 +424,12 @@ overflow: hidden;
 }
 
 @media screen and (max-width:490px) {
+    .secend{
+    width: 100%;
+    height: 650px;
+    
+  }
+  
   .group{
     display: grid;
     grid-template-columns: repeat(2,1fr);
